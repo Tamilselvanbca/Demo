@@ -1,0 +1,165 @@
+.App {
+    padding: 20px;
+  }
+  
+  .save-segment-button {
+    background-color:rgba(70, 67, 67, 0.397) ;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup {
+    background-color: white;
+    padding: 0;
+    width: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .nav{
+    background:rgb(24, 194, 216);
+  }
+  .back-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .popup-title {
+    font-size: 15px;
+    margin-bottom: 0%;
+    margin-left: 10px;
+    margin-top: 25px;
+  }
+  
+  .segment-name-input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  
+  .instruction-text {
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+  
+  .schema-indicators {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+  }
+  
+  .user-traits-indicator, .group-traits-indicator {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  
+  .schema-box {
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin: 10px;
+  }
+  
+  .schema-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+ 
+}
+  
+  .schema-select {
+    width: calc(100% - 30px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .remove-schema-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-schema-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+  }
+  
+  .add-schema-button {
+    background-color:white;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: flex;
+    margin: 10px;
+    gap: 10px;
+  }
+  
+  .save-button {
+    background-color: rgb(7, 134, 134);
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .saved-message, .error-message {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .error-message {
+    background-color: #dc3545;
+  }
+  
